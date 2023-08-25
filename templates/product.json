@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "3c2ea822-898e-417c-8c19-d6c51f3cd0c1": {
+      "type": "text-with-image",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Earrings",
+        "image": "shopify:\/\/shop_images\/banner.jpg",
+        "image_position": "left",
+        "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "dropdown",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": true
+          }
+        },
+        "share_buttons": {
+          "type": "share_buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "description",
+        "variant_selector",
+        "buy_buttons",
+        "share_buttons"
+      ],
+      "settings": {
+        "image_size": "medium",
+        "stack_images": false,
+        "show_thumbnails": true,
+        "thumbnail_position": "left",
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Related Product",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "ae3b88e2-8862-4c33-980d-414311360fa9": {
+      "type": "richtext-section",
+      "disabled": true,
+      "settings": {
+        "section_width": "narrow",
+        "subheading": "Sub-heading",
+        "title": "",
+        "content": "<p>We are committed to putting you first and delivering an exceptional experience. Our expert customer care team is here to answer all of your questions and provide guidance as you build your jewelry wardrobe.<\/p>",
+        "content_size": "large",
+        "button_style": "link",
+        "button_size": "normal",
+        "use_outline_button_1": false,
+        "button_1_text": "",
+        "button_1_link": "",
+        "use_outline_button_2": false,
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
+    "46ad7d5e-12ac-41f2-81dd-2432b2c15c70": {
+      "type": "vertical-spacing",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "75cab9a2-973c-43ea-90ad-afad50280c54": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "section_size": "small",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+      }
+    },
+    "7ad3c5dd-990b-4a1a-92b1-52e4d1abf54c": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "blocks": {
+        "a783783e-bc93-4ae4-b11a-04cfe3fb9cc9": {
+          "type": "product",
+          "settings": {
+            "product": "pave-diamond-and-fluted-heart-drop-earrings"
+          }
+        }
+      },
+      "block_order": [
+        "a783783e-bc93-4ae4-b11a-04cfe3fb9cc9"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "2707df7c-e37e-4b42-9d83-ecdbb2cc16d9": {
+      "type": "instafeed",
+      "disabled": true,
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "bc410231-ae5f-4f87-bd16-3c9e2aa17458": {
+      "type": "category-list",
+      "settings": {
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    }
+  },
+  "order": [
+    "3c2ea822-898e-417c-8c19-d6c51f3cd0c1",
+    "main",
+    "product-recommendations",
+    "ae3b88e2-8862-4c33-980d-414311360fa9",
+    "46ad7d5e-12ac-41f2-81dd-2432b2c15c70",
+    "75cab9a2-973c-43ea-90ad-afad50280c54",
+    "7ad3c5dd-990b-4a1a-92b1-52e4d1abf54c",
+    "2707df7c-e37e-4b42-9d83-ecdbb2cc16d9",
+    "bc410231-ae5f-4f87-bd16-3c9e2aa17458"
+  ]
+}

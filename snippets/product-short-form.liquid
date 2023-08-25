@@ -1,0 +1,18 @@
+{%- if product.title contains 'Bracelet' -%}
+ <h4 class="line-item-property__field swatch__title">
+  <label for="wrist-size">Wrist Size</label>
+  <input style="color:#212b36;" required placeholder="Enter Size" class="required" id="wrist-size" type="text" name="properties[Wrist Size]">
+</h4>   
+{%- endif -%}
+{%- if product.title contains 'Custom Signature' or product.title contains 'Engravable' -%}
+                            <span class="line-item-property__field">
+	<h4 class="line-item-property__field swatch__title"><span>Upload Signature (JPG or PNG)</span></h4>
+<input style="margin-bottom: 30px;color:#212b36" required class="button required ProductForm__Item" id="custom_photo" type="file" name="properties[Signature]" accept="image">
+</span>
+{%- endif -%}
+{%- if product.title contains 'Ring' -%}
+ <h4 class="line-item-property__field swatch__title">
+  <label for="ring-size">Ring Size</label>
+  <input style="color:#212b36" required placeholder="Enter Ring Size" class="required ProductForm__Item" id="ring-size" type="text" name="properties[Ring Size]">
+</h4>   
+{%- endif -%}

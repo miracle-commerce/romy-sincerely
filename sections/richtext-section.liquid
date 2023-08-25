@@ -1,0 +1,179 @@
+<section data-section-type="RichText" data-section-id="{{section.id}}">
+  <div class="RichText {% unless section.settings.section_width == "full" %} Container {%if section.settings.section_width == 'narrow' %} Container--narrow{% endif %}{% endunless %}">
+    {%- if section.settings.subheading != blank -%}
+      <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+    {%- endif -%}
+
+    {%- if section.settings.title != blank -%}
+      <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title | escape }}</h2>
+    {%- endif -%}
+
+    {%- if section.settings.content != blank -%}
+      <div class="Rte {% if section.settings.content_size == 'large' %} u-h1{% endif %}">
+        {{ section.settings.content }}
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.button_1_text != blank and section.settings.button_2_text != blank -%}
+      {%- assign has_two_buttons = true -%}
+    {%- else -%}
+      {%- assign has_two_buttons = false -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_1_text != blank or section.settings.button_2_text != blank -%}
+      <div class="SectionHeader__ButtonWrapper">
+        <div class="ButtonGroup ButtonGroup--spacingSmall {% if has_two_buttons %}ButtonGroup--sameSize{% endif %}">
+          {%- if section.settings.button_1_text != blank -%}
+            <a href="{{ section.settings.button_1_link }}" class="{% if section.settings.button_style == 'link' %} Link Link--underline {% else %} ButtonGroup__Item Button {% if section.settings.use_outline_button_1 %} Button--secondary {% else %} Button--primary{% endif %} {% if section.settings.button_size == 'large'%} Button--Large{% endif %}{% endif%}">{{ section.settings.button_1_text | escape }}</a>
+          {%- endif -%}
+
+          {%- if section.settings.button_2_text != blank -%}
+            <a href="{{ section.settings.button_2_link }}" class="{% if section.settings.button_style == 'link' %} Link Link--underline {% else %} ButtonGroup__Item Button {% if section.settings.use_outline_button_2 %} Button--secondary {% else %} Button--primary{% endif %} {% if section.settings.button_size == 'large'%} Button--Large{% endif %}{% endif%}">{{ section.settings.button_2_text | escape }}</a>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Rich text",
+  "settings": [
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Section Width",
+      "options": [
+        {        
+          "value": "full",
+          "label": "Full"
+        },
+        {
+          "value":"container",
+          "label":"Container"
+        },
+        {
+          "value":"narrow",
+          "label":"Narrow"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+      "type": "select",
+      "id": "content_size",
+      "label": "Content Size",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value":"large",
+          "label":"Large"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "header",
+      "content": "Section Buttons"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button Style",
+      "options": [
+        {
+          "value": "link",
+          "label": "Link"
+        },
+        {
+          "value":"button",
+          "label":"Button"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "button_size",
+      "label": "Button Size",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value":"large",
+          "label":"Large"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Button 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_outline_button_1",
+      "label": "Use Outline Style"
+    },
+    {
+      "type": "text",
+      "id": "button_1_text",
+      "label": "Text",
+      "default":"Button 1"
+    },
+    {
+      "type": "url",
+      "id": "button_1_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Button 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_outline_button_2",
+      "label": "Use Outline Style"
+    },
+    {
+      "type": "text",
+      "id": "button_2_text",
+      "label": "Text",
+      "default":"Button 2"
+    },
+    {
+      "type": "url",
+      "id": "button_2_link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Rich text",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_rss": false,
+        "show_tags": false,
+        "show_featured_article": false,
+        "show_category": false,
+        "show_title": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

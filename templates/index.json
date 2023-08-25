@@ -1,0 +1,443 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_12c06d09-5d9a-4b48-a2eb-dbe01ac8218a.png",
+            "mobile_image": "shopify:\/\/shop_images\/1_12c06d09-5d9a-4b48-a2eb-dbe01ac8218a.png",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_style": "link",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/handwriting-designs",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "5b0dc1c4-a2a0-4496-ae11-78d2111bb63d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_536446b8-8b55-48a3-978e-1576119e7055.png",
+            "mobile_image": "shopify:\/\/shop_images\/2_536446b8-8b55-48a3-978e-1576119e7055.png",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_style": "link",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/love-collection",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "5b0dc1c4-a2a0-4496-ae11-78d2111bb63d"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "39a61fce-12d2-4b65-b25c-52d70dbd37b7": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "1300f143-e3b5-4f0e-9add-0b4422b82ac2": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "773ce587-97ab-4b99-800b-8949e5c9fcf3": {
+      "type": "category-list",
+      "blocks": {
+        "template--18016198852925__773ce587-97ab-4b99-800b-8949e5c9fcf3-1676910595549fde84-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-necklaces",
+            "image": "shopify:\/\/shop_images\/1_copy.png",
+            "image_alignment": "bottom center",
+            "content_position": "middleCenter",
+            "title": "Necklaces"
+          }
+        },
+        "template--18016198852925__773ce587-97ab-4b99-800b-8949e5c9fcf3-1676910595549fde84-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bracelets",
+            "image": "shopify:\/\/shop_images\/Untitled_design-7.png",
+            "image_alignment": "center center",
+            "content_position": "middleCenter",
+            "title": "Bracelets"
+          }
+        },
+        "699bb6d0-4cb0-4dd9-ac31-8b04cb768deb": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-earrings",
+            "image": "shopify:\/\/shop_images\/4_279bddcc-c212-48d9-afe8-26b418bdb6c5.png",
+            "image_alignment": "center center",
+            "content_position": "middleCenter",
+            "title": "Earrings"
+          }
+        },
+        "011c578c-1f87-4f06-a4c9-7dc23244ac19": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-rings",
+            "image": "shopify:\/\/shop_images\/3_8e534c65-2fac-4ef2-bd9d-2fcd15e6cd7d.png",
+            "image_alignment": "center center",
+            "content_position": "middleCenter",
+            "title": "Rings"
+          }
+        },
+        "56032689-a35c-46a0-a3e6-1c616302a1be": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-charms",
+            "image": "shopify:\/\/shop_images\/5.png",
+            "image_alignment": "center center",
+            "content_position": "middleCenter",
+            "title": "Charms"
+          }
+        },
+        "d5ee81c7-e407-425e-bde3-e0bb08010e71": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "all-mens-jewelry-accessories",
+            "image": "shopify:\/\/shop_images\/Facetune_15-01-2023-15-40-12_e0d23bd3-94b8-487c-80c4-cc4bf31450cb.webp",
+            "image_alignment": "center center",
+            "content_position": "middleCenter",
+            "title": "Men's Jewelry & Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "template--18016198852925__773ce587-97ab-4b99-800b-8949e5c9fcf3-1676910595549fde84-0",
+        "template--18016198852925__773ce587-97ab-4b99-800b-8949e5c9fcf3-1676910595549fde84-1",
+        "699bb6d0-4cb0-4dd9-ac31-8b04cb768deb",
+        "011c578c-1f87-4f06-a4c9-7dc23244ac19",
+        "56032689-a35c-46a0-a3e6-1c616302a1be",
+        "d5ee81c7-e407-425e-bde3-e0bb08010e71"
+      ],
+      "settings": {
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    },
+    "35b1a87a-1cba-4dda-b9e7-c7e09821937f": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "c4e4522c-3122-4155-87a5-a6c6e4e2b487": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "61863a47-0a44-47d0-83f4-d2beeee94614": {
+      "type": "richtext-section",
+      "settings": {
+        "section_width": "full",
+        "subheading": "",
+        "title": "Our Story",
+        "content": "",
+        "content_size": "normal",
+        "button_style": "link",
+        "button_size": "normal",
+        "use_outline_button_1": false,
+        "button_1_text": "",
+        "button_1_link": "",
+        "use_outline_button_2": false,
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
+    "19081eb6-063b-47f4-ada5-a19ce2496f37": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "8370fa34-dfdf-4ea2-b420-929f13f207d3": {
+      "type": "featured-video",
+      "settings": {
+        "section_size": "large",
+        "text_color": "#ffffff",
+        "subheading": "",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/about.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=wp6vzLRaN2w"
+      }
+    },
+    "34482b84-bd19-40fb-a6c8-37ff996c0eb3": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--14365391355998__34482b84-bd19-40fb-a6c8-37ff996c0eb3-1686079246da909f83-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "title": "Best Sellers",
+            "grid_items_count": 8,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14365391355998__34482b84-bd19-40fb-a6c8-37ff996c0eb3-1686079246da909f83-0"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "33f9df04-3a40-4bc9-95b3-61011d057ad2": {
+      "type": "richtext-section",
+      "settings": {
+        "section_width": "full",
+        "subheading": "",
+        "title": "Sincerely stories",
+        "content": "",
+        "content_size": "normal",
+        "button_style": "link",
+        "button_size": "normal",
+        "use_outline_button_1": false,
+        "button_1_text": "",
+        "button_1_link": "",
+        "use_outline_button_2": false,
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
+    "b7642d67-a497-46db-873e-2595e12890fa": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "9d8209df-a811-4031-9fcc-c519debff298": {
+      "type": "three-column-testimonials",
+      "blocks": {
+        "d710a2d7-3d8a-4052-9361-f626dcb9aa5f": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/89A06B0B-584B-4D8C-99F9-18F3FA5F6BDF.heic",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/IMG_7041.jpg",
+            "secondary_image_position": "middleCenter",
+            "content": "Since my son, Shep, was an infant, I have been waiting for him to start writing so I could order a piece from Sincerely Jewelry. When he turned 5, for my Mother’s Day gift, I received a necklace in his handwriting with his pet name for me “Babes.”  It is one of my greatest treasures - capturing his first sweet handwriting, preserving this moment in time with my sweet boy. Not only do I adore the piece, but my son loves that I always have a part of him with me even when we are apart.",
+            "author_date": "Angie H",
+            "subtitle": ""
+          }
+        },
+        "template--18016198852925__9d8209df-a811-4031-9fcc-c519debff298-1677015969ffb61110-1": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/joy_4cf8b07e-879d-44e0-866f-0d5a16ebfdae.jpg",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-17_at_3.42.43_PM.png",
+            "secondary_image_position": "middleCenter",
+            "content": "When given my late husbands signature duplicated into a piece of jewelry I was shocked and immediately filled with immense emotion and delight. Wearing this special necklace resonates a feeling that Stephen is with me. I constantly touch it making me feel that he is close to my heart. He is with me always and I am SINCERELY grateful!! I will make sure that this special memento given to me by my two amazing children remains in this family for generations to come... Thank you.",
+            "author_date": "Joy D",
+            "subtitle": ""
+          }
+        },
+        "890b1d93-f877-4f56-88a7-90a90833cdf3": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/IMG_0269.heic",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/IMG_6189.heic",
+            "secondary_image_position": "middleCenter",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "author_date": "Lindsey D",
+            "subtitle": ""
+          }
+        },
+        "479ebd1d-4442-4e5a-878f-4db9f4bd460f": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/FullSizeRender-1.jpeg",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.26.38_AM.png",
+            "secondary_image_position": "middleCenter",
+            "content": "Such a special gift from my mama. Her beautiful handwriting with my darling boys names, such a treasure! SINCERELY made this one of a kind piece of jewelry, I'm so grateful!",
+            "author_date": "Sarah S",
+            "subtitle": ""
+          }
+        },
+        "c845cc25-6080-4930-8d85-e7711c1bf64f": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/3DF12C75-6EE8-4A1E-9E9E-E6C9D19DB57F.jpg",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/IMG_7053.jpg",
+            "secondary_image_position": "middleCenter",
+            "content": "I had a friend who had a necklace made from Romy (Sincerely) with her children’s names and I asked who made it. At the time, the idea I would lose my father so soon was not imaginable. My dad was diagnosed with stage 4 cancer in May of 2019 and passed in Jan of 2020. I had 9 months with him. Knowing that the possibility of his passing loomed I remembered the necklace and I asked my daughter to have him write peanut on a card and pretend it was for school. He obliged. Today I wear my necklace with pride. I never take it off and when asked about what it says I get to tell the story of how I was my dads little peanut. It makes me feel close to him still. I am sincerely grateful for this gift.",
+            "author_date": "Jennifer D",
+            "subtitle": ""
+          }
+        },
+        "69623515-01d5-4c0c-bc51-16c50045d7f0": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.38.41_AM.png",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.38.25_AM.png",
+            "secondary_image_position": "middleCenter",
+            "content": "My bubby Irene was a true force to be reckoned with; a tiny woman with a giant personality. Her positivity and unique zest for life could literally light up the darkest room. Growing up, I was extremely lucky to have such a solid relationship with her, as she called me her \"zeez kind\" (sweet child in Yiddish) and never let me forget how loved I was. My daughter was fortunate enough to be able to soak up an abundance of bubby love; however, my son never got to meet her. She was so excited about my pregnancy, but unfortunately passed before he was born. After an extremely traumatic delivery, I believe she came to the hospital to, quite literally, bring me back to life in the form of a young, soft spoken, and compassionate nurse named Irene. My bubby meant the world to me, and I'd been searching for months for a way to commemorate her. This \"love\" necklace in her handwriting pretty much sums it up! The emotion I get from this piece of jewelry is indescribable. Thank you so much for helping me find a way to keep my bubby so close!",
+            "author_date": "Dani F",
+            "subtitle": ""
+          }
+        },
+        "aa8a6c4b-9333-4b1b-9ec3-c050265ba1f4": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.43.57_AM.png",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.43.41_AM.png",
+            "secondary_image_position": "middleCenter",
+            "content": "Harris Wittels was an incredible son, great comedian, co-executive producer of Parks and Recreation and Master of None, and inventor of the word “humblebrag”, which now resides in the Oxford Dictionary. He also had a big secret; he had an illness called addiction. He died on 2\/19\/15 of a drug overdose. He was 30 years young. We stood together as a family to support him and love him through the darkness but sadly it was not enough. My best friend gave me a beautiful gift after he died. It was a tiny little bracelet with a feather attached because feathers represent angels. It was a way for me to connect to Harris. I never take it off. But then I saw a necklace on a friend. It was her name written in a very unusual signature in tiny diamonds. I asked her about it and she told me her kids had given it to her and it was her dad’s actual signature as she was very close to him. I was blown away. It got me to thinking that perhaps I could get something created like that in Harris’ very own signature. I wear my engagement diamond in a necklace and never take it off so a necklace would not work for me but a bracelet would. I had received cards from Harris over the years and he always signed them exactly the same way but I had trouble deciding exactly what to say on the bracelet. I didn’t just want his name. Romy worked with me and came up with something amazing. Love Harris was that special something I was searching for. It will rest right next to my feather bracelet, never to be taken off! I feel so lucky to have found this designer, to make this kind of connection to my son. I love this special gift to myself.",
+            "author_date": "Maureen W",
+            "subtitle": ""
+          }
+        },
+        "68776243-36d5-4b82-8f08-6c6f03667745": {
+          "type": "testimonial",
+          "settings": {
+            "primary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.33.54_AM.png",
+            "primary_image_position": "middleCenter",
+            "secondary_image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-12_at_11.32.00_AM.png",
+            "secondary_image_position": "middleCenter",
+            "content": "After my dad died suddenly in June 2016, I wanted a permanent reminder of him with me at all times.  He didn't like tattoos - and disapproved of my small ankle tattoo - so I started scouting for a sentimental piece of jewelry.  I came across Sincerely and immediately felt connected to Romy's story and her company.  \n\nRomy captured my dad's signature perfectly, including his distinct \"C\" (for Charles).  I was worried that his signature, which is mostly scribble, would not translate properly in a necklace form - but Romy assured me that she thought it would be beautiful.  Romy was patient and encouraging during this process, and produced an incredible piece of jewelry for me.\n\nI receive daily compliments on my necklace and have recommended Sincerely to my family and friends.  More importantly, this necklace sits close to my heart, helps me feel more connected to my dad, and gives me opportunities to talk about him with others.  Thank you for such a treasured gift.",
+            "author_date": "Elizabeth H",
+            "subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "d710a2d7-3d8a-4052-9361-f626dcb9aa5f",
+        "template--18016198852925__9d8209df-a811-4031-9fcc-c519debff298-1677015969ffb61110-1",
+        "890b1d93-f877-4f56-88a7-90a90833cdf3",
+        "479ebd1d-4442-4e5a-878f-4db9f4bd460f",
+        "c845cc25-6080-4930-8d85-e7711c1bf64f",
+        "69623515-01d5-4c0c-bc51-16c50045d7f0",
+        "aa8a6c4b-9333-4b1b-9ec3-c050265ba1f4",
+        "68776243-36d5-4b82-8f08-6c6f03667745"
+      ],
+      "custom_css": [
+        ".testimonial__content {font-family: var(--heading-font-family); text-transform: lowercase; font-size: 13px;}"
+      ],
+      "settings": {
+        "section_width": "full",
+        "image_size": "medium"
+      }
+    },
+    "f7a84e1d-fa69-4d1a-a741-11e3773ff740": {
+      "type": "featured-collections",
+      "blocks": {
+        "b7f3d800-a41c-43c3-b060-825f075e6f4c": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "title": "New Arrivals",
+            "grid_items_count": 8,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7f3d800-a41c-43c3-b060-825f075e6f4c"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "16769969352ba0effe": {
+      "type": "apps",
+      "blocks": {
+        "66b7013d-eb05-4596-a6e0-1aa4950365d4": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 23,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "66b7013d-eb05-4596-a6e0-1aa4950365d4"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "ecc1682e-c11f-45a1-9b7f-129fbab37d66": {
+      "type": "vertical-spacing",
+      "settings": {
+      }
+    },
+    "dc91bf4a-33d2-4c6a-9ca8-a3acff6b1f7b": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "section_size": "small",
+        "image": "shopify:\/\/shop_images\/sincerely-jewelry-fb-2.jpg",
+        "text_color": "#ffffff",
+        "button_color": "#000000",
+        "subheading": "STAY IN THE KNOW",
+        "title": "with sincerely's newsletter",
+        "content": "<p>Get access to new arrivals, sales, events, client stories, GOOD grief episodes and more!<\/p>"
+      }
+    },
+    "6a6ec220-bfc3-4dbb-b007-44f461c7e8ba": {
+      "type": "vertical-spacing",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "39a61fce-12d2-4b65-b25c-52d70dbd37b7",
+    "1300f143-e3b5-4f0e-9add-0b4422b82ac2",
+    "773ce587-97ab-4b99-800b-8949e5c9fcf3",
+    "35b1a87a-1cba-4dda-b9e7-c7e09821937f",
+    "c4e4522c-3122-4155-87a5-a6c6e4e2b487",
+    "61863a47-0a44-47d0-83f4-d2beeee94614",
+    "19081eb6-063b-47f4-ada5-a19ce2496f37",
+    "8370fa34-dfdf-4ea2-b420-929f13f207d3",
+    "34482b84-bd19-40fb-a6c8-37ff996c0eb3",
+    "33f9df04-3a40-4bc9-95b3-61011d057ad2",
+    "b7642d67-a497-46db-873e-2595e12890fa",
+    "9d8209df-a811-4031-9fcc-c519debff298",
+    "f7a84e1d-fa69-4d1a-a741-11e3773ff740",
+    "16769969352ba0effe",
+    "ecc1682e-c11f-45a1-9b7f-129fbab37d66",
+    "dc91bf4a-33d2-4c6a-9ca8-a3acff6b1f7b",
+    "6a6ec220-bfc3-4dbb-b007-44f461c7e8ba"
+  ]
+}

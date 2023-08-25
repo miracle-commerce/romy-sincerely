@@ -1,0 +1,259 @@
+<section data-section-type="three-column-testimonials" data-section-id="{{section.id}}">
+  {%- if section.blocks.size > 0 -%}
+    <div class="three-column-testimonials {% unless section.settings.section_width == 'full' %}Container {% if section.settings.section_width == "narrow"%}Container--narrow{% endif %}{% endunless %}" data-flickity='{"prevNextButtons": false, "imagesLoaded": true, "fade": true, "adaptiveHeight": true}'>
+      {% for block in section.blocks %}
+        <div class="three-column-testimonial three-column-testimonial-{{block.id}}">
+          <div class="three-column-testimonial__item column-testimonial__ImageWrapper column-testimonial__PrimaryImageWrapper column-testimonial__ImageWrapper--{{section.settings.image_size}}" {%- if block.settings.primary_image != blank -%} style="--aspect-ratio: {{ 1 | divided_by: block.settings.primary_image.aspect_ratio | times: 100 | append: '%'}}{%- endif -%}">
+              {%- if block.settings.primary_image != blank -%}
+                {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,640,768,800,900,1000,1200', image: block.settings.primary_image -%}{%- endcapture -%}
+                {%- assign image_url = block.settings.primary_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                <img class="Image--lazyLoad column-testimonial__image column-testimonial__image--{{ block.settings.primary_image_position }}" data-src="{{ image_url }}" data-expand="-200" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ block.settings.primary_image.alt | escape }}">
+              {%- else -%}
+                <div class="PlaceholderSvg--dark">
+                  {%- capture image_name -%}lifestyle-{% cycle 'anchor': '1', '2' %}{%- endcapture -%}
+                  {{ image_name | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.primary_image != blank -%}
+                <noscript>
+                  <img src="{{ block.settings.primary_image | img_url: '640x' }}" class="column-testimonial__image column-testimonial__image--{{ block.settings.primary_image_position }}" alt="{{ block.settings.primary_image.alt | escape }}">
+                </noscript>  
+              {%- endif -%}              
+          </div>
+          <div class="three-column-testimonial__item column-testimonial__ImageWrapper column-testimonial__SecondaryImageWrapper column-testimonial__ImageWrapper--{{section.settings.image_size}}" {%- if block.settings.secondary_image != blank -%} style="--aspect-ratio: {{1 | divided_by: block.settings.secondary_image.aspect_ratio | times: 100 | append: '%'}}{%- endif -%}">
+            {%- if block.settings.secondary_image != blank -%}
+              {%- capture supported_sizes -%}{%- render 'image-size', sizes: '130,400,640,768,800,900,1000,1200', image: block.settings.secondary_image -%}{%- endcapture -%}
+              {%- assign image_url = block.settings.secondary_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img class="Image--lazyLoad column-testimonial__image column-testimonial__image--{{ block.settings.secondary_image_position }}" data-src="{{ image_url }}" data-expand="-200" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ block.settings.secondary_image.alt | escape }}">
+            {%- else -%}
+              <div class="PlaceholderSvg--dark">
+                {%- capture image_name -%}lifestyle-{% cycle 'anchor': '1', '2' %}{%- endcapture -%}
+                {{ image_name | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.secondary_image != blank -%}
+              <noscript>
+                <img src="{{ block.settings.secondary_image | img_url: '640x' }}" class="column-testimonial__image column-testimonial__image--{{ block.settings.secondary_image_position }}" alt="{{ block.settings.secondary_image.alt | escape }}">
+              </noscript>  
+            {%- endif -%} 
+            
+          </div>
+          <div class="three-column-testimonial__item column-testimonial__MainContent">
+            {%- if block.settings.content != blank -%}
+              <p class="testimonial__content features--heading-large u-h2">{{block.settings.content}}</p>
+            {%- endif -%}
+
+            {%- if block.settings.author_date != blank -%}
+              <span class="testimonial__author features--heading-large u-h6">{{ block.settings.author_date}}</span>
+            {%- endif -%}
+
+            {%- if block.settings.subtitle != blank -%}
+              <span class="testimonial__subtitle features--heading-large u-h5">{{block.settings.subtitle}}</span>
+            {%- endif -%}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {%- endif -%}
+</section>
+
+
+
+{% schema %}
+  {
+    "name":"Three Column Testimonials",
+    "settings":[
+      {
+        "type": "select",
+        "id": "section_width",
+        "label": "Section Width",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full"
+          },
+          {
+            "value":"container",
+            "label":"Container"
+          },
+          {
+            "value":"narrow",
+            "label":"Narrow"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image Size",
+        "options": [
+          {
+            "value": "natural",
+            "label": "Natural"
+          },
+          {
+            "value":"small",
+            "label":"Small"
+          },
+          {
+            "value":"medium",
+            "label":"Medium"
+          },
+          {
+            "value":"large",
+            "label":"Large"
+          }
+        ]
+      }
+    ],
+    "blocks":[
+      {
+        "name":"Column Testimonial",
+        "type":"testimonial",
+        "settings":[
+          {
+            "type": "header",
+            "content": "Images"
+          },
+          {
+            "type": "image_picker",
+            "id": "primary_image",
+            "label": "Primary Image"
+          },
+          {
+            "type": "select",
+            "id": "primary_image_position",
+            "label": "Primary Image Position",
+            "options": [
+              {
+                "value": "topLeft",
+                "label": "Top Left"
+              },
+              {
+                "value":"topCenter",
+                "label":"Top Center"
+              },
+              {
+                "value":"topRight",
+                "label":"Top Right"
+              },
+              {
+                "value":"middleLeft",
+                "label":"Middle Left"
+              },
+              {
+                "value":"middleCenter",
+                "label":"Middle Center"
+              },
+              {
+                "value":"middleRight",
+                "label":"Middle Right"
+              },
+              {
+                "value":"bottomLeft",
+                "label":"Bottom Left"
+              },
+              {
+                "value":"bottomCenter",
+                "label":"Bottom Center"
+              },
+              {
+                "value":"bottomRight",
+                "label":"Bottom Right"
+              }
+            ],
+            "default": "middleCenter"
+          },
+          {
+            "type": "image_picker",
+            "id": "secondary_image",
+            "label": "Secondary Image"
+          },
+          {
+            "type": "select",
+            "id": "secondary_image_position",
+            "label": "Secondary Image Position",
+            "options": [
+              {
+                "value": "topLeft",
+                "label": "Top Left"
+              },
+              {
+                "value":"topCenter",
+                "label":"Top Center"
+              },
+              {
+                "value":"topRight",
+                "label":"Top Right"
+              },
+              {
+                "value":"middleLeft",
+                "label":"Middle Left"
+              },
+              {
+                "value":"middleCenter",
+                "label":"Middle Center"
+              },
+              {
+                "value":"middleRight",
+                "label":"Middle Right"
+              },
+              {
+                "value":"bottomLeft",
+                "label":"Bottom Left"
+              },
+              {
+                "value":"bottomCenter",
+                "label":"Bottom Center"
+              },
+              {
+                "value":"bottomRight",
+                "label":"Bottom Right"
+              }
+            ],
+            "default": "middleCenter"
+          },
+          {
+            "type": "header",
+            "content": "Block Content"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Testimonial Content",
+            "default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+          },
+          {
+            "type": "text",
+            "id": "author_date",
+            "label": "Author and Date",
+            "default": "Author, 2023"
+          },
+          {
+            "type": "textarea",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "It is a long established fact that a reader"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"Three Column Testimonials",
+        "category":"testimonial",
+        "blocks":[
+          {
+            "type":"testimonial"
+          },
+          {
+            "type":"testimonial"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
