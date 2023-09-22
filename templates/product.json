@@ -39,6 +39,12 @@
             "size_chart": ""
           }
         },
+        "50e4b537-5dbe-4714-a1e9-53e7e1722ac2": {
+          "type": "shopify:\/\/apps\/uploadly-file-upload\/blocks\/app-block\/d91e9a53-de3d-49df-b7a1-ac8a15b213e5",
+          "settings": {
+            "featured_product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -56,6 +62,7 @@
         "product_meta",
         "description",
         "variant_selector",
+        "50e4b537-5dbe-4714-a1e9-53e7e1722ac2",
         "buy_buttons",
         "share_buttons"
       ],
@@ -112,7 +119,6 @@
     },
     "7ad3c5dd-990b-4a1a-92b1-52e4d1abf54c": {
       "type": "product-recommendations",
-      "disabled": true,
       "blocks": {
         "a783783e-bc93-4ae4-b11a-04cfe3fb9cc9": {
           "type": "product",
@@ -124,6 +130,7 @@
       "block_order": [
         "a783783e-bc93-4ae4-b11a-04cfe3fb9cc9"
       ],
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "show_product_info": true,
